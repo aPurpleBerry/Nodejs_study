@@ -8,7 +8,7 @@ const {getArraySum} = require('./lib/arr.js')
 
 const {checkUser,checkPwd} = require('./lib/str.js') 
 
-// 同意到处
+// 同意导出
 module.exports = {
   getArraySum,
   checkUser,
