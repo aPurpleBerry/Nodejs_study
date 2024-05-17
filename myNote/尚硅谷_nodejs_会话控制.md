@@ -265,6 +265,8 @@ JWT 使 token 的生成与校验更规范
 
 - 代码
 
+  注意 JWT官方说明必须加上单位，也就是可以10s表示10秒钟，不加默认为毫秒
+
 ```javascript
 //导入 jsonwebtokan
 const jwt = require('jsonwebtoken');
